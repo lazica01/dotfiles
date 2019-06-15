@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+compton &
+
+flashfocus -o 0.85 -t 120 &
+
+wal -a '90' --saturate 0.8 -i ~/.wallpaper;
+i3-msg 'workspace 1; append_layout ~/.config/i3/home_screen.json';
+urxvt -name start_clock -e tty-clock -c &
+urxvt -name start_gotop -e gotop &
+urxvt --hold -name start_neofetch -e neofetch &
+
+
+polybar main -r &

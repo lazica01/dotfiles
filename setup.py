@@ -3,11 +3,12 @@
 import os
 
 dict = {
-    "i3"            :"/.config/i3/config",
-    "polybar"       :"/.config/polybar/config",
-    "vimrc"         :"/.vimrc",
-    "bashrc"        :"/.bashrc",
-    "bash_profile"  :"/.bash_profile"
+    "home_screen.json"  :"/.config/i3/home_screen.json"
+    "i3"                :"/.config/i3/config",
+    "polybar"           :"/.config/polybar/config",
+    "vimrc"             :"/.vimrc",
+    "bashrc"            :"/.bashrc",
+    "bash_profile"      :"/.bash_profile"
 }
 
 home = os.path.expanduser("~")

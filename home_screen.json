@@ -1,0 +1,68 @@
+{
+    "border": "none",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.535416666666667,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 436,
+               "width": 724,
+               "x": 0,
+               "y": 0
+            },
+            "name": "lazica@arch:~",
+            "percent": 0.3,
+            "swallows": [
+               {
+                  "instance": "^start_clock$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "none",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 436,
+               "width": 724,
+               "x": 0,
+               "y": 0
+            },
+            "name": "lazica@arch:~",
+            "percent": 0.7,
+            "swallows": [
+               {
+                "instance": "^start_neofetch$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "user_off",
+    "geometry": {
+       "height": 436,
+       "width": 724,
+       "x": 0,
+       "y": 0
+    },
+    "name": "lazica@arch:~",
+    "percent": 0.464583333333333,
+    "swallows": [
+       {
+          "instance": "^start_gotop$"
+       }
+    ],
+    "type": "con"
+}
+
