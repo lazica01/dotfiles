@@ -3,7 +3,7 @@
 import os
 
 dict = {
-    "home_screen.json"  :"/.config/i3/home_screen.json"
+    "home_screen.json"  :"/.config/i3/home_screen.json",
     "i3"                :"/.config/i3/config",
     "polybar"           :"/.config/polybar/config",
     "vimrc"             :"/.vimrc",
