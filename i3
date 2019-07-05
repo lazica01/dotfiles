@@ -16,11 +16,19 @@ focus_follows_mouse no
 
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+Return exec urxvt -name floating_urxvt
+
+
 for_window [class="URxvt" instance="floating_urxvt"] floating enable
+
 assign [class="Firefox"] workspace 2
 
 assign [class="rdesktop"] workspace 10
 for_window [class="rdesktop"] fullscreen enable
+
+assign [class="Viber"] workspace 4
+assign [class="Skype"] workspace 4
+assign [class="Caprine"] workspace 4
+assign [class="discord"] workspace 4
 
 default_border none
 default_floating_border none
@@ -28,8 +36,11 @@ bindsym $mod+Tab workspace back_and_forth
 bindsym $mod+a open
 bindsym $mod+i exec $no icons
 
-bindsym $mod+d exec $no dmenu_run
+bindsym $mod+d exec $no rofi -show run
+
 bindsym $mod+q kill
+bindsym $mod+F4 kill
+
 bindsym $mod+w exec $browser
 
 bindsym $mod+h focus left
